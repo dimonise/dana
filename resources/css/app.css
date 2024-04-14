@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+    max-width: none !important;
+    color: #b5b7bf;
+    width: 100%;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    vertical-align: middle;
+    table-layout: fixed;
+}
+
+table td {
+    border-color: #4e5165;
+    border-bottom-width: 0.5px;
+    border-collapse: separate !important;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+input[type="text"], select {
+    color: #000;
+}
+
+select {
+    width: 16%
+}
+
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 25%;
+    height: 10%;
+    border: 1px solid red;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    z-index: 1000;
+}
+
+.subcat {
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.subsubcat {
+    margin-left: 20%;
+}
+
+.back {
+    width: 100%;
+    min-height: 300vh;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    top: 0;
+}
+
+#details-table {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#details-table td {
+    border: 0.5px solid #4e5165;
+    border-collapse: separate !important;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+.base {
+    color: #008000FF;
+}
+
+.analog {
+    color: #FFFF00FF;
+}
+
+.mt-1 {
+    margin-top: 25px;
+}
+
+.cart input {
+    width: 16%;
+}
+
+.garbage {
+    margin-left: 1%;
+    color: #FFFFFFFF;
+    cursor: pointer;
+}
+
+.garbage :hover {
+    color: #FF0000FF;
+}
+
+#order-info {
+    margin-top: 25px;
+}
